@@ -20,5 +20,5 @@ def highest_GC(series_dict):
         for k, v in series_dict1.items():
             if v == max(series_dict1.values()):
                max_tuple=(k,v)
-    return GC_computation_list, max_list
+    return GC_computation_list, max_tuple, series_dict1
 print(highest_GC(GC_content_dict))
