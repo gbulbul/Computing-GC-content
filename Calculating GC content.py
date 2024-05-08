@@ -13,8 +13,9 @@ def highest_GC(series_dict):
         Count_T=series.count('T')
         Count_C=series.count('C')
         GC_computation= 100 * (Count_C+ Count_G) / (Count_A+Count_C+Count_G +Count_T) 
-        for series_key in series_dict.keys():
-            series_dict1[series_key]=GC_computation
+    for series_key in series_dict.keys():
+         if series_dict[series_key]==series:
+             series_dict1[series_key]=GC_computation     
     
         GC_computation_list.append(GC_computation)
         for k, v in series_dict1.items():
