@@ -1,1 +1,1 @@
-Calculating GC content enables to differ species. This program achieves to find DNA which is associated with the highest GC content where GC content is nothing but the relative frequency of G + C while having a sehmeng of DNA or its full sequence. 
+Calculating GC content enables to differ species. This program achieves to find DNA which is associated with the highest GC content where GC content is nothing but the relative frequency of G + C while having a segment of DNA or its full sequence. 
